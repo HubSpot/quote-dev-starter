@@ -1,0 +1,8 @@
+{
+  "uid": "my-react-module-project",
+  "type": "cms-assets",
+  "config": {
+    "themePath": "my-react-assets",
+    "secretNames": []
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "name": "quote-dev-starter",
+  "description": "Starter project for building custom-coded React modules for HubSpot Commerce Hub quote templates",
+  "private": true,
+  "devDependencies": {
+    "@hubspot/prettier-plugin-hubl": "^0.2.5",
+    "eslint": "^8.24.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-react": "^7.31.10",
+    "prettier": "^2.7.1"
+  },
+  "scripts": {
+    "postinstall": "cd src/cms-assets/my-react-assets && npm install",
+    "prettier": "prettier . --check",
+    "deploy": "hs project upload"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}
