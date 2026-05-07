@@ -11,6 +11,7 @@
   },
   "scripts": {
     "postinstall": "cd src/cms-assets/my-react-assets && npm install",
+    "start": "cd src/cms-assets/my-react-assets && npm start",
     "prettier": "prettier . --check",
     "deploy": "hs project upload"
   },

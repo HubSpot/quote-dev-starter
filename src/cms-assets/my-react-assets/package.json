@@ -4,6 +4,7 @@
   "description": "Custom-coded React modules for HubSpot Commerce Hub quote templates",
   "private": true,
   "scripts": {
+    "start": "hs-cms-dev-server .",
     "deploy": "hs project upload"
   },
   "type": "module",
