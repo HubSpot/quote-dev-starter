@@ -15,7 +15,7 @@
   },
   "devDependencies": {
     "@hubspot/cms-dev-server": "^1.2.27",
-    "@hubspot/quote-dev-sdk": "^0.1.0",
+    "@hubspot/quote-dev-sdk": "^0.1.2",
     "@types/react": "^18.3.28",
     "typescript": "^5.7.0"
   },
